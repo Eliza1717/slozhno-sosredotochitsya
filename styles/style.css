@@ -2,4 +2,46 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url(../images/cover-image-dark.png);
+  width: 1024px;
+  min-height: 768px;
+}
+
+.header {
+  margin: 20px;
+}
+
+.header__theme-menu {
+  color: var(--question-text-color);
+  font-family: var(--general-font-family);
+  font-size: var(--general-font-size);
+}
+
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__theme-menu-item {
+  padding: 0 13px;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__theme-menu-button_active:active {
+  border: solid 1px #ff0070;
+}
+
+.header__theme-menu-button_type_auto {
+}
+
+.header__theme-menu-button_type_dark {
 }
