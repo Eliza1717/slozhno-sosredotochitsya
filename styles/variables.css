@@ -6,10 +6,12 @@
 :root {
   --title-color: #db00ff;
   --subtitle-color: #000028;
+  --background-color: #000028;
   --accent-color: #ff0070;
   --general-text-color: #f1b2ce;
   --general-background-color:#ff0070;
   --button-menu: #C71585;
-  --general-font-family: IBM Plex Mono;
+  --general-font-family: "IBM Plex Mono" , "Sans-serif";
   --general-font-size: 18px;
+  --cover-image: url(../images/cover-image-dark.png);
 }

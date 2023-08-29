@@ -11,5 +11,10 @@
   */
 }
 
-.header__theme-menu-button_type_light {
+.page.theme_light .decorated-text {
+  display: none;
+} 
+
+.page.theme_auto .decorated-text {
+  display: none;
 }
