@@ -167,7 +167,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  margin-block-start: 80px;
+  margin-block-start: 143px;
 }
 
 .container__desc-title {
@@ -384,7 +384,7 @@ a:focus-visible {
   }
 
   .container__standard {
-    margin-block-end: 10px;
+    margin-block-end: 20px;
   }
 
   .container__desc-standard {
