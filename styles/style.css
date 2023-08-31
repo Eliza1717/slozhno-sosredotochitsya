@@ -358,6 +358,7 @@ a:focus-visible {
     font-size: var(--font-size-title);
     margin-block-start: 273px;
     margin-block-end: 114px;
+    margin-inline-start: -20px;
   }
 
   .header__text {
@@ -383,7 +384,7 @@ a:focus-visible {
   }
 
   .container__standard {
-    margin-block-end: 20px;
+    margin-block-end: 10px;
   }
 
   .container__desc-standard {
