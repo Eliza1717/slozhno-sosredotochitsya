@@ -167,7 +167,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  margin-block-start: 143px;
+  margin-block-start: 80px;
 }
 
 .container__desc-title {
