@@ -117,7 +117,6 @@
   font-size: var(--font-size-title);
   line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--accent-color);
-  font-size: 116px;
 }
 
 .header__text {
@@ -291,7 +290,6 @@ a:focus-visible {
   padding: 10px;
   min-block-size: 668px;
   block-size: 100vh;
-  min-block-size: calc(100vw / 0.75);
 }
 
 .footer-title {
