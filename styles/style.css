@@ -298,6 +298,23 @@ a:focus-visible {
 
 /* -----------------Медиазапросы-------------------------------------- */
 
+@media (min-width: 375px) {
+
+.container-size {
+  margin-block-start: 0px;
+}
+
+  .container__standard {
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+  }
+
+  .container__desc-question {
+    margin-block-start: 40px;
+  }
+}
+
+
 @media (min-width: 768px) {
   .header {
     padding: 20px;
