@@ -299,25 +299,19 @@ a:focus-visible {
 /* -----------------Медиазапросы-------------------------------------- */
 
 @media (min-width: 375px) {
-
-.container-size {
-  margin-block-start: 0px;
-}
+  .container-size {
+    margin-block-start: 0px;
+  }
 
   .container__standard {
     margin-block-start: 10px;
     margin-block-end: 20px;
   }
 
-  .container__desc-question {
-   margin-block-start: 30px;
-  }
-
   .footer-title {
-    font-size: var( --font-size-standard);
+    font-size: var(--font-size-standard);
   }
 }
-
 
 @media (min-width: 768px) {
   .header {
@@ -330,6 +324,10 @@ a:focus-visible {
 
   .header__title {
     margin-inline-start: -20px;
+  }
+
+  .header__theme-menu-list {
+    padding-inline: 0px;
   }
 
   .decorated-zone::before {
@@ -356,7 +354,7 @@ a:focus-visible {
   }
 
   .container-size {
-    margin-block-start: 80px;
+    margin-block-start: 70px;
     margin-block-end: 80px;
   }
 
