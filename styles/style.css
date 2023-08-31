@@ -334,6 +334,11 @@ a:focus-visible {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .container__standard {
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+  }
+
   .container__gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
