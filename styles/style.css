@@ -324,6 +324,10 @@ a:focus-visible {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .header__title {
+    margin-inline-start: -20px;
+  }
+
   .decorated-zone::before {
     top: 20px;
     right: 20px;
@@ -345,6 +349,11 @@ a:focus-visible {
 
   .container__desc {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container-size {
+    margin-block-start: 0px;
+    margin-block-end: 80px;
   }
 
   .container__desc-question {
