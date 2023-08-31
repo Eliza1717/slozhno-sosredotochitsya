@@ -312,6 +312,10 @@ a:focus-visible {
   .container__desc-question {
    margin-block-start: 30px;
   }
+
+  .footer-title {
+    font-size: var( --font-size-standard);
+  }
 }
 
 
