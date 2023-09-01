@@ -16,7 +16,7 @@
 
 .header {
   position: relative;
-  box-sizing: 100vh;
+  block-size: 100vh;
   padding: 10px;
   inline-size: 100%;
 }
