@@ -175,10 +175,6 @@
   margin-block-end: 20px;
 }
 
-.container__desc-text {
-  grid-column: span 2;
-}
-
 .container__desc-subtitle {
   font-weight: 700;
   font-size: var(--general-font-size);
@@ -337,16 +333,14 @@ a:focus-visible {
   }
 
   .container__desc {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    margin-block-start: 60px;
+    gap: 20px;
   }
 
   .container-size {
     margin-block-start: 0px;
     margin-block-end: 50px;
-  }
-
-  .container__standard {
-    margin-block-start: 0px;
   }
 
   .container__desc-question {
