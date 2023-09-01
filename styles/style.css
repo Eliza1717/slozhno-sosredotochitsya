@@ -396,14 +396,15 @@ a:focus-visible {
 
   .container__card {
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   .container-size {
     margin-block-start: 0px;
   }
 
-  .container__desc-standard {
-    margin-block-start: 80px;
+  .container__desc {
+    gap: 10px;
   }
 
   .footer-title {
