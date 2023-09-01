@@ -379,15 +379,19 @@ a:focus-visible {
   .header__text {
     padding-block-start: 0px;
     padding-block-end: 114px;
+    margin-block-start: 55px ;
   }
 
   .header__theme-menu {
     align-self: flex-start;
+    margin-block-start: 0px;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
     justify-content: center;
+    margin-block-start: 0px;
+    gap: 25px;
   }
 
   .container__card {
