@@ -284,6 +284,7 @@ a:focus-visible {
   align-items: center;
   padding: 10px;
   block-size: 100vh;
+  margin-block-start: 40px;
 }
 
 .footer-title {
