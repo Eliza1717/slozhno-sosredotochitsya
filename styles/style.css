@@ -343,6 +343,10 @@ a:focus-visible {
     margin-block-end: 50px;
   }
 
+  .what {
+    margin-block-start: 60px;
+  }
+
   .container__desc-question {
     grid-template-columns: repeat(3, 1fr);
   }
