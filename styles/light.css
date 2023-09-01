@@ -21,6 +21,7 @@
   --cover-image: url(../images/cover-image-light.png);
   --button-menu: #353430;
   --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-standard: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 .page.theme_light .position__REC {
@@ -44,5 +45,6 @@
     --general-font-size: 18px;
     --cover-image: url(../images/cover-image-light.png);
     --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --font-size-standard: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
