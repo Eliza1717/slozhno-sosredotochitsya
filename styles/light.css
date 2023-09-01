@@ -13,6 +13,7 @@
   --subtitle-color: #353430;
   --background-color: #fff1f7;
   --accent-color:#ff8dcb;
+  --accent-color-title:#ff0070;
   --common-color:#353430;
   --general-text-color: #353430;
   --general-background-color: #ff8dcb;
@@ -38,6 +39,7 @@
     --subtitle-color: #353430;
     --common-color:#353430;
     --background-color: #fff1f7;
+    --accent-color-title:#ff0070;
     --accent-color:#ff8dcb;
     --general-text-color: #353430;
     --general-background-color: #ff8dcb;

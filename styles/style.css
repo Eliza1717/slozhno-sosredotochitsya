@@ -167,7 +167,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  margin-block-start: 60px;
+  margin-block-start: 30px;
 }
 
 .container__desc-title {
@@ -199,6 +199,11 @@
 .container-size {
   margin-block-start: 50px;
   margin-block-end: 60px;
+}
+
+.container__standard {
+  margin-block-start: 10px;
+  margin-block-end: 20px;
 }
 
 .container__card {
@@ -292,31 +297,11 @@ a:focus-visible {
 
 .footer-title {
   color: var(--title-color);
-  font-size: var(--font-size-title);
+  font-size: var(--font-size-standard);
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 /* -----------------Медиазапросы-------------------------------------- */
-
-@media (min-width: 375px) {
-  .container-size {
-    margin-block-start: 0px;
-    margin-block-end: 50px;
-  }
-
-  .container__standard {
-    margin-block-start: 10px;
-    margin-block-end: 20px;
-  }
-
-  .container__desc-question { 
-    margin-block-start: 30px;
-  }
-
-  .footer-title {
-    font-size: var(--font-size-standard);
-  }
-}
 
 @media (min-width: 768px) {
   .header {
@@ -359,17 +344,12 @@ a:focus-visible {
   }
 
   .container-size {
-    margin-block-start: 70px;
-    margin-block-end: 80px;
+    margin-block-start: 0px;
+    margin-block-end: 50px;
   }
 
   .container__desc-question {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .container__standard {
-    margin-block-start: 10px;
-    margin-block-end: 20px;
   }
 
   .container__gallery {
@@ -418,11 +398,6 @@ a:focus-visible {
 
   .container-size {
     margin-block-start: 0px;
-  }
-
-  .container__standard {
-    margin-block-start: 10px;
-    margin-block-end: 20px;
   }
 
   .container__desc-standard {
