@@ -336,15 +336,12 @@ a:focus-visible {
     grid-template-columns: 1fr 2fr;
     margin-block-start: 60px;
     gap: 20px;
+    margin-block-end: 60px;
   }
 
   .container-size {
     margin-block-start: 0px;
-    margin-block-end: 50px;
-  }
-
-  .what {
-    margin-block-start: 60px;
+    margin-block-end: 60px;
   }
 
   .container__desc-question {
@@ -354,13 +351,15 @@ a:focus-visible {
   .container__gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 260fr 315fr 428fr;
     grid-template-areas:
       "sunset sunset ice-cream"
       "tape books ice-cream"
       "tape street street";
     gap: 20px;
+    margin-block-start: 20px;
   }
+
+  
 
   .footer {
     padding: 20px;
