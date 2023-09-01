@@ -121,7 +121,7 @@
 .header__text {
   display: grid;
   grid-template-columns: 1ft;
-  padding-block-start: 55px;
+  padding-block-start: 50px;
   padding-block-end: 55px;
 }
 
@@ -177,10 +177,6 @@
 
 .container__desc-text {
   grid-column: span 2;
-  font-family: var(--general-font-family);
-  font-weight: 400;
-  font-size: var(--general-font-size);
-  line-height: 23.4px;
 }
 
 .container__desc-subtitle {
@@ -199,10 +195,16 @@
   margin-block-end: 20px;
 }
 
+.container__descoration {
+  font-family: var(--general-font-family);
+  font-weight: 400;
+  font-size: var(--general-font-size);
+  line-height: 23.4px;
+}
+
 .container__card {
   display: grid;
   grid-template-columns: 1fr;
-  font-size: var(--general-font-size);
 }
 
 .container__card-decoration {
@@ -245,6 +247,7 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-block-start: 10px;
 }
 
 .picture {
