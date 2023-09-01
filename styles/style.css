@@ -301,11 +301,16 @@ a:focus-visible {
 @media (min-width: 375px) {
   .container-size {
     margin-block-start: 0px;
+    margin-block-end: 50px;
   }
 
   .container__standard {
     margin-block-start: 10px;
     margin-block-end: 20px;
+  }
+
+  .container__desc-question { 
+    margin-block-start: 30px;
   }
 
   .footer-title {
@@ -390,7 +395,6 @@ a:focus-visible {
     margin-inline-start: -20px;
     margin-block-start: 273px;
     margin-block-end: 114px;
-    text-shadow: var(--accent-color);
     font-size: var(--font-size-title);
   }
 
