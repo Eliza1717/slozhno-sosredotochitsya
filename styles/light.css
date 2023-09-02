@@ -12,24 +12,23 @@
   --title-color: #ffc2e6;
   --subtitle-color: #353430;
   --background-color: #fff1f7;
-  --accent-color:#ff8dcb;
-  --accent-color-title:#ff0070;
-  --common-color:#353430;
+  --accent-color: #ff8dcb;
+  --accent-color-title: #ff0070;
+  --common-color: #353430;
   --general-text-color: #353430;
   --general-background-color: #ff8dcb;
-  --general-font-family: "IBM Plex Mono", "Sans-serif";
+  --general-font-family: "IBM Plex Mono", " monospace";
   --general-font-size: 18px;
   --cover-image: url(../images/cover-image-light.png);
-  --button-menu: #353430;
+  --button-menu: #ff0070;
+  --border-opacity-day: 1;
+  --border-opacity-neon: 0;
+  --border-opacity-auto: 0;
   --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-standard: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
-.page.theme_light .position__REC {
-  display: none;
-}
-
-.page.theme_auto .position__REC {
+.page.theme_light .position__rec {
   display: none;
 }
 
@@ -37,13 +36,13 @@
   :root {
     --title-color: #ffc2e6;
     --subtitle-color: #353430;
-    --common-color:#353430;
+    --common-color: #353430;
     --background-color: #fff1f7;
-    --accent-color-title:#ff0070;
-    --accent-color:#ff8dcb;
+    --accent-color-title: #ff0070;
+    --accent-color: #ff8dcb;
     --general-text-color: #353430;
     --general-background-color: #ff8dcb;
-    --general-font-family: "IBM Plex Mono", "Sans-serif";
+    --general-font-family: "IBM Plex Mono", " monospace";
     --general-font-size: 18px;
     --cover-image: url(../images/cover-image-light.png);
     --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
