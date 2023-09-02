@@ -135,7 +135,7 @@
 .header__text {
   display: grid;
   grid-template-columns: 1fr;
-  margin-block-start: 50px;
+  margin-block-start: 55px;
   margin-block-end: 55px;
 }
 
@@ -302,7 +302,7 @@ a:focus-visible {
 
 .footer-title {
   color: var(--title-color);
-  font-size: var(--font-size-standard);
+  font-size: var(--font-size-title);
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -338,8 +338,8 @@ a:focus-visible {
   }
 
   .position__rec {
-    top: 24px;
-    right: 27px;
+    top: 21px;
+    right: 28px;
   }
 
   .container {
@@ -382,6 +382,7 @@ a:focus-visible {
 
 @media (min-width: 1024px) {
   .header__title {
+    font-size: var(--font-size-standard);
     margin-block-start: 273px;
     margin-block-end: 114px;
     text-shadow: 4px 4px 0px #ff0070;
@@ -400,7 +401,6 @@ a:focus-visible {
 
   .header__theme-menu-list {
     flex-direction: row;
-    gap: 25px;
     margin-block-start: 0px;
   }
 
@@ -414,7 +414,7 @@ a:focus-visible {
   }
 
   .footer-title {
-    font-size: var(--font-size-title);
+    font-size: var(--font-size-standard);
     text-shadow: 4px 4px 0px #ff0070;
   }
 }
