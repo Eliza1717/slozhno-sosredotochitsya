@@ -26,14 +26,7 @@
   --border-width-auto: 0px;
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-standard: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-}
-
-.page.theme_light .position__rec {
-  display: none;
-}
-
-.position__rec {
-  display: none;
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -55,5 +48,6 @@
     --border-width-auto: 1px;
     --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --font-size-standard: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --rec-display: none;
   }
 }

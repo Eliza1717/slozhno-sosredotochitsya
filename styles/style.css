@@ -49,8 +49,13 @@
   position: absolute;
   top: 11px;
   right: 18px;
+  display: var(--rec-display);
   color: var(--accent-color);
   text-transform: uppercase;
+}
+
+.position__rec::before {
+  visibility: visible;
 }
 
 .position__rec::after {
