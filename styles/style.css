@@ -16,6 +16,8 @@
 
 .header {
   position: relative;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
   padding: 10px;
   block-size: 100vh;
   inline-size: 100%;
@@ -63,9 +65,9 @@
 }
 
 .header__theme-menu {
-  margin-block-start: 65px;
   color: var(--common-color);
   font-size: var(--general-font-size);
+  align-self: center;
 }
 
 .header__theme-menu-list {
@@ -73,7 +75,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  
 }
 
 .header__theme-menu-item {
@@ -106,7 +107,7 @@
 }
 
 .header__theme-menu-button_type_auto {
-  border: 1px solid rgba(255, 0, 112, var(--border-opacity-auto));
+  border: 1px solid rgba(var(--common-color), var(--border-opacity-auto));
 }
 
 .header__theme-menu-button_active:active {
@@ -124,7 +125,6 @@
 }
 
 .header__title {
-  margin-block-start: 65px;
   color: var(--title-color);
   font-weight: 700;
   font-size: var(--font-size-title);
@@ -135,12 +135,12 @@
 .header__text {
   display: grid;
   grid-template-columns: 1fr;
-  margin-block-start: 55px;
-  margin-block-end: 55px;
 }
 
 .header__content {
   grid-column: 2/3;
+  align-self: center;
+  height: fit-content;
   font-size: var(--general-font-size);
   background-color: var(--general-background-color);
 }
@@ -315,16 +315,10 @@ a:focus-visible {
 
   .header__text {
     grid-template-columns: repeat(2, 1fr);
-    margin-block-start: 162px;
   }
 
   .header__title {
     margin-inline-start: -20px;
-    margin-block-start: 173px;
-  }
-
-  .header__theme-menu-list {
-    margin-block-start: 172px;
   }
 
   .decorated-zone::before {
@@ -383,25 +377,15 @@ a:focus-visible {
 @media (min-width: 1024px) {
   .header__title {
     font-size: var(--font-size-standard);
-    margin-block-start: 273px;
-    margin-block-end: 114px;
     text-shadow: 4px 4px 0px #ff0070;
-  }
-
-  .header__text {
-    margin-block-start: 55px;
-    padding-block-start: 0px;
-    padding-block-end: 114px;
   }
 
   .header__theme-menu {
     align-self: flex-start;
-    margin-block-start: 0px;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
-    margin-block-start: 0px;
   }
 
   .container__card {
