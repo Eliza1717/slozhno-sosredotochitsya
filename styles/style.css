@@ -65,9 +65,9 @@
 }
 
 .header__theme-menu {
+  align-self: center;
   color: var(--common-color);
   font-size: var(--general-font-size);
-  align-self: center;
 }
 
 .header__theme-menu-list {
@@ -88,7 +88,6 @@
 .header__theme-menu-button {
   min-width: 70px;
   min-height: 26px;
-  border: none;
   font-weight: 400;
   font-size: var(--general-font-size);
   line-height: 18px;
@@ -99,15 +98,15 @@
 }
 
 .header__theme-menu-button_type_light {
-  border: 1px solid rgba(53, 52, 48, var(--border-opacity-day));
+  border: var(--border-width-day) solid var(--common-color);
 }
 
 .header__theme-menu-button_type_dark {
-  border: 1px solid rgba(255, 0, 112, var(--border-opacity-neon));
+  border: var(--border-width-neon) solid var(--common-color);
 }
 
 .header__theme-menu-button_type_auto {
-  border: 1px solid rgba(var(--common-color), var(--border-opacity-auto));
+  border: var(--border-width-auto) solid var(--common-color);
 }
 
 .header__theme-menu-button_active:active {

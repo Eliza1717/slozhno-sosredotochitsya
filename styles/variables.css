@@ -15,9 +15,9 @@
   --general-font-family: "IBM Plex Mono", "monospace";
   --general-font-size: 18px;
   --cover-image: url(../images/cover-image-dark.png);
-  --border-opacity-auto: 1;
-  --border-opacity-neon: 0;
-  --border-opacity-day: 0;
+  --border-width-auto: 1px;
+  --border-width-neon: 0px;
+  --border-width-day: 0px;
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-standard: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
